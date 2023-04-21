@@ -1,12 +1,13 @@
-Include < studio.h >
+Include <studio.h>
+
 /**
- * main - start point
+ * main - entry point
  *
- * description: Write a C program that prints with puts
+ * description: A C program that prints with put function
  * ,
- * Return:always 0 (successful)
+ * Return:always 0 (success)
 */
-Int main(void)
-{	Puts("\"programming is like building a multilingual puzzle");
-	Return(0);
+int main(void)
+{	puts("\"programming is like building a multilingual puzzle");
+	return(0);
 }
